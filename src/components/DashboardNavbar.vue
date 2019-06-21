@@ -1,12 +1,12 @@
 <template>
   <section id="app__navbar">
-    <div id="app__navbar--title">
+    <nav id="app__navbar--title">
       <p>
-        <small id="gray">Analytics</small>
-        <small id="blue">Dashboard</small>
+        <label id="gray">Analytics</label>
+        <label id="blue">Dashboard</label>
       </p>
-    </div>
-    <div id="app__navbar--credentials">
+    </nav>
+    <nav id="app__navbar--credentials">
       <ul>
         <li id="app__navbar--credentials__profile-picture">
           <img :src="profilePicture" alt="profile-picture">
@@ -21,7 +21,7 @@
           </div>
         </li>
       </ul>
-    </div>
+    </nav>
   </section>
 </template>
 

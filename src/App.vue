@@ -1,82 +1,48 @@
 <template>
   <div id="app">
     <Navbar :title="title" :profilePicture="profilePicture" :username="username"></Navbar>
+    <Summary :logo=docotelLogo :dataSummaries=summaryData></Summary>
   </div>
 </template>
 
 <script>
 import Navbar from "./components/DashboardNavbar";
+import Summary from "./components/DashboardSummary"
 
 export default {
   name: "app",
   components: {
-    Navbar
+    Navbar,
+    Summary
   },
   data() {
     return {
-      furnitureStyles: [],
-      furnitureProducts: [],
-      checkedStyles: [],
-      rangeDelivery: [],
-      searchKeyword: "",
-      isOutOfStock: false,
-      fabelioLogo: require("./assets/fabelio.png"),
-      profilePicture: require("./assets/profpict.jpg"),
-      username: "Ari Marpaung"
+      profilePicture: require("./assets/img/profpict.jpg"),
+      username: "Ari Marpaung",
+      docotelLogo: require("./assets/img/docotel-logo.png"),
+      summaryData: [{
+        label: "Last",
+        value: 24556
+      }, {
+        label: "High",
+        value: 34556
+      }, {
+        label: "Low",
+        value: 14556
+      }, {
+        label: "Alert",
+        value: 34556
+      }, {
+        label: "Malware",
+        value: 34556
+      }]
     };
   },
   mounted() {
-    fetch("https://www.mocky.io/v2/5c9105cb330000112b649af8")
-      .then(resp => resp.json())
-      .then(data => {
-        this.furnitureStyles = data.furniture_styles;
-        this.furnitureProducts = data.products.map(el => {
-          if (+el.delivery_time <= 7) {
-            el["range_delivery"] = "1 week";
-          } else if (+el.delivery_time > 7 && +el.delivery_time <= 14) {
-            el["range_delivery"] = "2 weeks";
-          } else if (+el.delivery_time > 14 && +el.delivery_time <= 30) {
-            el["range_delivery"] = "1 month";
-          } else {
-            el["range_delivery"] = "more";
-          }
-          return el;
-        });
-      });
+    
   },
   computed: {
-    filteredProducts() {
-      let vm = this;
-      if (
-        !vm.searchKeyword &&
-        !vm.rangeDelivery.length &&
-        !vm.checkedStyles.length
-      ) {
-        return vm.furnitureProducts;
-      } else {
-        let filtered = vm.furnitureProducts
-          .filter(el => {
-            return vm.searchKeyword
-              ? el.name.toLowerCase().indexOf(vm.searchKeyword) > -1
-              : el;
-          })
-          .filter(el => {
-            return vm.rangeDelivery.length
-              ? vm.rangeDelivery.indexOf(el.range_delivery) > -1
-              : el;
-          })
-          .filter(el => {
-            return vm.checkedStyles.length
-              ? el.furniture_style.some(r => vm.checkedStyles.indexOf(r) > -1)
-              : el;
-          });
-
-        // handle if products is out of stock
-        filtered.length ? (vm.isOutOfStock = false) : (vm.isOutOfStock = true);
-
-        return filtered;
-      }
-    }
+    
   }
 };
 </script>
@@ -96,6 +62,7 @@ export default {
 }
 body {
   background-color: #070c24;
+  margin: 0;
 }
 #app {
   width: 90%;
