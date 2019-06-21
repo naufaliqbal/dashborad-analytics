@@ -1,0 +1,42 @@
+{
+  "name": "mahapatih-dashboard",
+  "version": "1.0.0",
+  "description": "making dashboard for mahapatih test",
+  "author": "Naufal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "lint": "eslint src/**/*.js src/**/*.vue --fix",
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "promise-polyfill": "^8.1.3",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.10",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "postcss-loader": "^3.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
