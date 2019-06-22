@@ -66,14 +66,14 @@ module.exports = {
         }),
         new VueLoaderPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'css/[name].[hash].css',
-            chunkFilename: 'css/[name].[hash].css'
+            filename: '[name].[hash].css',
+            chunkFilename: '[name].[hash].css'
         })
     ],
     output: {
         filename: 'js/[name].[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/'
+        publicPath: './'
     },
     optimization: {
         runtimeChunk: 'single',
