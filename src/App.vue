@@ -1,49 +1,53 @@
 <template>
   <div id="app">
-    <Navbar :title="title" :profilePicture="profilePicture" :username="username"></Navbar>
-    <Summary :logo=docotelLogo :dataSummaries=summaryData></Summary>
+    <Navbar :username="username"></Navbar>
+    <Summary :dataSummaries="summaryData"></Summary>
+    <DashboardBody></DashboardBody>
   </div>
 </template>
 
 <script>
-import Navbar from "./components/DashboardNavbar";
-import Summary from "./components/DashboardSummary"
+import Navbar from './components/DashboardNavbar';
+import Summary from './components/DashboardSummary';
+import DashboardBody from './components/DashboardBody';
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
     Navbar,
-    Summary
+    Summary,
+    DashboardBody
   },
-  data() {
+  data () {
     return {
-      profilePicture: require("./assets/img/profpict.jpg"),
-      username: "Ari Marpaung",
-      docotelLogo: require("./assets/img/docotel-logo.png"),
-      summaryData: [{
-        label: "Last",
-        value: 24556
-      }, {
-        label: "High",
-        value: 34556
-      }, {
-        label: "Low",
-        value: 14556
-      }, {
-        label: "Alert",
-        value: 34556
-      }, {
-        label: "Malware",
-        value: 34556
-      }]
+      username: 'Ari Marpaung',
+      summaryData: [
+        {
+          label: 'Last',
+          value: 24556
+        },
+        {
+          label: 'High',
+          value: 34556
+        },
+        {
+          label: 'Low',
+          value: 14556
+        },
+        {
+          label: 'Alert',
+          value: 34556
+        },
+        {
+          label: 'Malware',
+          value: 34556
+        }
+      ]
+
     };
   },
-  mounted() {
-    
-  },
-  computed: {
-    
-  }
+  mounted () {},
+  computed: {}
 };
 </script>
 

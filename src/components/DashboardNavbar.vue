@@ -27,38 +27,39 @@
 
 <script>
 export default {
-  name: "Navbar",
-  props: ["profilePicture", "username"],
-  data() {
+  name: 'Navbar',
+  props: ['username'],
+  data () {
     return {
       date: new Date().getDate(),
       months: new Date().getMonth() + 1,
       year: new Date().getFullYear(),
       hours: new Date().getHours(),
-      minutes: new Date().getMinutes()
+      minutes: new Date().getMinutes(),
+      profilePicture: require('../assets/img/profpict.jpg')
     };
   },
   computed: {
-    dateNow() {
+    dateNow () {
       let vm = this;
       return (
         vm.twoDigitsValidate(vm.date) +
-        "-" +
+        '-' +
         vm.twoDigitsValidate(vm.months) +
-        "-" +
+        '-' +
         vm.twoDigitsValidate(vm.year)
       );
     },
-    timeNow() {
+    timeNow () {
       let vm = this;
-      let punctuation = vm.hours < 12 ? "AM" : "PM";
+      let punctuation = vm.hours < 12 ? 'AM' : 'PM';
       let time = vm.hours % 12 || 12;
-      return time + "." + vm.twoDigitsValidate(vm.minutes) + " " + punctuation;
+      return time + '.' + vm.twoDigitsValidate(vm.minutes) + ' ' + punctuation;
     }
   },
   methods: {
-    twoDigitsValidate(value) {
-      let isTwoDigits = value < 10 ? "0" : "";
+    twoDigitsValidate (value) {
+      let isTwoDigits = value < 10 ? '0' : '';
       return isTwoDigits + String(value);
     }
   }

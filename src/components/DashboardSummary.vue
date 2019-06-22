@@ -1,10 +1,10 @@
 <template>
   <section id="app__summary">
     <div id="app__summary--logo">
-      <img :src="logo" alt="docotel-logo">
+      <img :src="docotelLogo" alt="docotel-logo">
     </div>
     <ul id="app__summary--lists">
-      <li v-for="(summary, idx) in dataSummaries" :key="summary.value" :data-index="idx">
+      <li v-for="(summary, idx) in dataSummaries" :key="idx">
         <label :for="summary.value">{{summary.label}}</label>
         <span>{{summary.value}}</span>
       </li>
@@ -14,8 +14,13 @@
 
 <script>
 export default {
-  name: "Summary",
-  props: ["logo", "dataSummaries"]
+  name: 'Summary',
+  props: ['dataSummaries'],
+  data () {
+    return {
+      docotelLogo: require('../assets/img/docotel-logo.png')
+    };
+  }
 };
 </script>
 
