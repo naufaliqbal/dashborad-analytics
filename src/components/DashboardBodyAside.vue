@@ -43,14 +43,24 @@ a {
 }
 #app__body--aside{
   width: 8rem;
+  margin-right: 10px;
 }
 #app__body--aside ul {
   display: flex;
   flex-direction: column;
-  margin: 80px 0;
+  margin: 59px 0;
+  align-items: flex-end;
 }
 #app__body--aside ul li {
-  margin: 20px 0;
+  margin: 15px 0;
   text-align: center;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: -webkit-fit-content;
+}
+#app__body--aside ul li:first-child {
+  margin-top: 0;
+  background-color: rgba(132, 159, 180, 0.03)
 }
 </style>

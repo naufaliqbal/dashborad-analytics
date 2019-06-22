@@ -1,5 +1,5 @@
 <template>
-  <section id="app__summary">
+  <nav id="app__summary">
     <div id="app__summary--logo">
       <img :src="docotelLogo" alt="docotel-logo">
     </div>
@@ -9,7 +9,7 @@
         <span>{{summary.value}}</span>
       </li>
     </ul>
-  </section>
+  </nav>
 </template>
 
 <script>

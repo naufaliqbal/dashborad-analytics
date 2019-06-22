@@ -31,4 +31,7 @@ li {
 a {
   color: #42b983;
 }
+#app__body {
+  display: flex;
+}
 </style>
