@@ -1,0 +1,615 @@
+
+#gray[data-v-5d917bc4] {
+  color: darkgray;
+}
+#blue[data-v-5d917bc4] {
+  color: #5b9cff;
+}
+span[data-v-5d917bc4] {
+  color: whitesmoke;
+}
+h3[data-v-5d917bc4] {
+  margin: 40px 0 0;
+}
+ul[data-v-5d917bc4] {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+li[data-v-5d917bc4] {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  left: -33px;
+}
+a[data-v-5d917bc4] {
+  color: #42b983;
+}
+#app__navbar[data-v-5d917bc4] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app__navbar--title[data-v-5d917bc4] {
+  margin: 0;
+  width: 80%;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #070c24;
+}
+#app__navbar--credentials[data-v-5d917bc4] {
+  background-image: linear-gradient(89deg, #6783ff 100%, #4bc2ff 100%);
+}
+#app__navbar--credentials__profile-picture img[data-v-5d917bc4] {
+  height: 45px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+#app__navbar--credentials__username[data-v-5d917bc4] {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-size: 13px;
+}
+#app__navbar--credentials__username span[data-v-5d917bc4]::after {
+  content: "\25BC";
+  display: inline;
+  margin: 0 5px;
+}
+#date[data-v-5d917bc4] {
+  font-family: "MontserratSemiBold", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+#time[data-v-5d917bc4] {
+  display: inline-block;
+  font-family: "MontserratBold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+h3[data-v-d1d0f4bc] {
+  margin: 40px 0 0;
+}
+ul[data-v-d1d0f4bc] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-d1d0f4bc] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-d1d0f4bc] {
+  color: #42b983;
+}
+#app__summary[data-v-d1d0f4bc] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d1539;
+}
+#app__summary--logo img[data-v-d1d0f4bc] {
+  width: 140px;
+  padding: 15px;
+}
+#app__summary--lists[data-v-d1d0f4bc] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+#app__summary--lists li span[data-v-d1d0f4bc] {
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+  font-family: "MontserratBold", Helvetica, Arial, sans-serif;
+  color: #52B4FF;
+}
+#app__summary--lists li label[data-v-d1d0f4bc] {
+  color: #849FB4;
+  font-size: 13px;
+}
+
+
+h3[data-v-4ddc1db2] {
+  margin: 40px 0 0;
+}
+ul[data-v-4ddc1db2] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-4ddc1db2] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-4ddc1db2] {
+  color: #42b983;
+}
+#app__body--aside[data-v-4ddc1db2]{
+  width: 8rem;
+  margin-right: 10px;
+}
+#app__body--aside ul[data-v-4ddc1db2] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 59px 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+#app__body--aside ul li[data-v-4ddc1db2] {
+  margin: 15px 0;
+  text-align: center;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: -webkit-fit-content;
+}
+#app__body--aside ul li[data-v-4ddc1db2]:first-child {
+  margin-top: 0;
+  background-color: rgba(132, 159, 180, 0.03)
+}
+
+
+h3[data-v-bb1e69da] {
+  margin: 40px 0 0;
+}
+ul[data-v-bb1e69da] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-bb1e69da] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-bb1e69da] {
+  color: #42b983;
+}
+#malware-session-chart[data-v-bb1e69da] {
+  grid-area: malware;
+  position: relative;
+  border-radius: 5px;
+}
+#malware-session-chart[data-v-bb1e69da]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#malware-session-chart__label[data-v-bb1e69da] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+
+
+h3[data-v-3bddc0a4] {
+  margin: 40px 0 0;
+}
+ul[data-v-3bddc0a4] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-3bddc0a4] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-3bddc0a4] {
+  color: #42b983;
+}
+#cache-coverage-chart[data-v-3bddc0a4]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#cache-coverage-chart__label[data-v-3bddc0a4] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+#cache-coverage-chart[data-v-3bddc0a4] {
+  grid-area: cache;
+  position: relative;
+  border-radius: 5px;
+  color: #849fb4;
+}
+
+
+h3[data-v-4a05cfe8] {
+  margin: 40px 0 0;
+}
+ul[data-v-4a05cfe8] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-4a05cfe8] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-4a05cfe8] {
+  color: #42b983;
+}
+#alert-table[data-v-4a05cfe8]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#alert-table__label[data-v-4a05cfe8] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+#alert-table[data-v-4a05cfe8] {
+  grid-area: alert;
+  position: relative;
+  border-radius: 5px;
+}
+#alert-table__table[data-v-4a05cfe8] {
+  font-size: 12px;
+  color: #849fb4;
+  text-align: left;
+  padding: 12px;
+  margin: 5px;
+}
+table[data-v-4a05cfe8] {
+  width: 100%;
+}
+th[data-v-4a05cfe8] {
+  padding-bottom: 10px;
+}
+td[data-v-4a05cfe8] {
+  padding: 10px 0;
+  border-bottom: 1px solid #849fb421;
+}
+
+
+h3[data-v-56b4dc6e] {
+  margin: 40px 0 0;
+}
+ul[data-v-56b4dc6e] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-56b4dc6e] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-56b4dc6e] {
+  color: #42b983;
+}
+#request-gb-chart[data-v-56b4dc6e] {
+  grid-area: requestgb;
+  position: relative;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#request-gb-chart[data-v-56b4dc6e]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#request-gb-chart__request[data-v-56b4dc6e] {
+  color: #849fb4;
+}
+#label-wrapper[data-v-56b4dc6e] {
+  margin: 25px 0;
+}
+#request-gb-chart__request p[data-v-56b4dc6e] {
+  font-size: 20px;
+  margin: 0;
+}
+#request-gb-chart__request small[data-v-56b4dc6e] {
+  font-size: 12px;
+}
+
+
+h3[data-v-147ed18f] {
+  margin: 40px 0 0;
+}
+ul[data-v-147ed18f] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-147ed18f] {
+  display: inline-block;
+  margin: 15px 25px;
+}
+a[data-v-147ed18f] {
+  color: #42b983;
+}
+#source-countries[data-v-147ed18f]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#source-countries__label[data-v-147ed18f] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+#source-countries[data-v-147ed18f] {
+  grid-area: countries;
+  position: relative;
+  border-radius: 5px;
+}
+#source-countries__maps[data-v-147ed18f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+  margin: 5px;
+}
+#source-countries__maps--image[data-v-147ed18f] {
+  width: 70%;
+}
+#source-countries__maps--legends span#color[data-v-147ed18f] {
+  height: 8px;
+  width: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 5px;
+}
+#source-countries__maps--legends ul[data-v-147ed18f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  color: #849fb4;
+  font-size: 12px;
+  font-family: "MontserratSemiBold", Arial, Helvetica, sans-serif;
+}
+
+
+h3[data-v-60d226ce] {
+  margin: 40px 0 0;
+}
+ul[data-v-60d226ce] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-60d226ce] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-60d226ce] {
+  color: #42b983;
+}
+#top-application-chart[data-v-60d226ce] {
+  grid-area: topapps;
+  position: relative;
+  border-radius: 5px;
+}
+#top-application-chart[data-v-60d226ce]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#top-application-chart__label[data-v-60d226ce] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+
+
+h3[data-v-42342598] {
+  margin: 40px 0 0;
+}
+ul[data-v-42342598] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-42342598] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-42342598] {
+  color: #42b983;
+}
+#top-malware-chart[data-v-42342598] {
+  grid-area: topmalware;
+  position: relative;
+  border-radius: 5px;
+}
+#top-malware-chart[data-v-42342598]::before {
+  content: "";
+  background-color: #0d1539;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  left: 0;
+  position: absolute;
+}
+#top-malware-chart__label[data-v-42342598] {
+  font-size: 20px;
+  text-align: left;
+  padding: 12px;
+  color: #849fb4;
+  margin: 5px;
+  background-color: #070c24;
+}
+
+
+h3[data-v-d838f26a] {
+  margin: 40px 0 0;
+}
+ul[data-v-d838f26a] {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li[data-v-d838f26a] {
+  display: inline-block;
+  margin: 25px 25px 15px;
+}
+a[data-v-d838f26a] {
+  color: #42b983;
+}
+#app__body--center[data-v-d838f26a] {
+  width: 100%;
+}
+#app__body--center__tabs[data-v-d838f26a] {
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 2px solid #2c3e50;
+}
+#app__body--center__tabs li[data-v-d838f26a]:first-child {
+  margin-left: 0;
+  color: #08a4bc;
+}
+#app__body--center__charts[data-v-d838f26a] {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas:
+    "malware malware cache"
+    "alert alert alert"
+    "requestgb countries countries"
+    "requestgb topapps topmalware"
+    "requestgb topapps topmalware";
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto 20px auto 20px auto 20px auto;
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
+  margin: 20px 0;
+}
+
+
+h3[data-v-339bd154] {
+  margin: 40px 0 0;
+}
+ul[data-v-339bd154] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-339bd154] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-339bd154] {
+  color: #42b983;
+}
+#app__body[data-v-339bd154] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/a98626e1aef6ceba5dfc1ee7112e235a.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(./fonts/88932dadc42e1bba93b21a76de60ef7a.ttf);
+}
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(./fonts/c88cecbffad6d8e731fd95de49561ebd.ttf);
+}
+body {
+  background-color: #070c24;
+  margin: 0;
+}
+#app {
+  width: 90%;
+  min-width: 960px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  position: relative;
+}
+
